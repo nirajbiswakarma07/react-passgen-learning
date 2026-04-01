@@ -16,7 +16,6 @@ const Hero = () => {
         <Card linkto="/passgen" title="Password Generator"/>
         <Card linkto="/about" title="About Page From Here"/>
         <Card linkto="/contact" title="Contact Page From Here"/>
-        <Card linkto="/" title="Yet Another Section 2"/>
       </div>
     </div>
   )
