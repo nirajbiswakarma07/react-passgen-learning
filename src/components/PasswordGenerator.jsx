@@ -37,7 +37,7 @@ const PasswordGenerator = () => {
       if (err.name === "AbortError") {
         setError("Request timed out. Try again.");
       } else {
-        setError("Something went wrong. Please try again later");
+        setError("Backend abhi baki hai mere dost.");
       }
     }
 
