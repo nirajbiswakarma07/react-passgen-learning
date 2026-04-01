@@ -12,10 +12,12 @@ const Hero = () => {
       </div>
       <br />
       <br />
-      <div className="mt-5 grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-4 text-center">
-        <Card linkto="/passgen" title="Password Generator"/>
-        <Card linkto="/about" title="About Page From Here"/>
-        <Card linkto="/contact" title="Contact Page From Here"/>
+      <div className="m-5 p-5 flex justify-center">
+        <div className="mt-5 grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <Card linkto="/passgen" title="Password Generator" />
+          <Card linkto="/about" title="About Page From Here" />
+          <Card linkto="/contact" title="Contact Page From Here" />
+        </div>
       </div>
     </div>
   )
